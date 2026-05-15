@@ -24,7 +24,7 @@ public class Level_1_2 {
         int[] arr = {8, 2, 8, 5, 8};
         int x = 8;
 
-        System.out.println("Số lần " + x + " Xuất hiện trong mảng là: " +countOccurrences(arr, x));
+        System.out.println("Số lần " + x + " xuất hiện trong mảng là: " + countOccurrences(arr, x));
 
     }
 
