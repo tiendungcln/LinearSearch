@@ -9,6 +9,7 @@ public class Level_1_3 {
             boolean isCounted = false;
 
             // Check xem arr[i] hiện tại và arr[k] trước đó có trùng nhau k
+            // Mục đích để k in ra màn hình nhiều lần 1 số trùng nhau
             for (int k = 0; k < i; k++){
                 if (arr[i] == arr[k]){
                     isCounted = true;
