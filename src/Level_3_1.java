@@ -3,8 +3,8 @@
 
         public static void findMostFrequent(int[] arr){
 
-            int maxCount = 0;
-            int mostFrequent = 0;
+            int maxCount = 0; // Số lần xuất hiện nhiều nhất hiện tại
+            int mostFrequent = 0; // Phần tử xuất hiện nhiều nhất hiện tại
 
             for (int current : arr){
 
